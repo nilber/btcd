@@ -1,4 +1,4 @@
-// Copyright (c) 2018 The btcsuite developers
+// Copyright (c) 2018 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,7 +10,7 @@ package psbt
 // is in the correct state.
 
 import (
-	"github.com/btcsuite/btcd/txscript"
+	"github.com/nilbertcd/txscript"
 )
 
 // SignOutcome is a enum-like value that expresses the outcome of a call to the

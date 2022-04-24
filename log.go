@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The nilber developers
 // Copyright (c) 2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -10,20 +10,20 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcd/addrmgr"
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/blockchain/indexers"
-	"github.com/btcsuite/btcd/connmgr"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/mining"
-	"github.com/btcsuite/btcd/mining/cpuminer"
-	"github.com/btcsuite/btcd/netsync"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/txscript"
+	"github.com/nilbertcd/addrmgr"
+	"github.com/nilbertcd/blockchain"
+	"github.com/nilbertcd/blockchain/indexers"
+	"github.com/nilbertcd/connmgr"
+	"github.com/nilbertcd/database"
+	"github.com/nilbertcd/mempool"
+	"github.com/nilbertcd/mining"
+	"github.com/nilbertcd/mining/cpuminer"
+	"github.com/nilbertcd/netsync"
+	"github.com/nilbertcd/peer"
+	"github.com/nilbertcd/txscript"
 
-	"github.com/btcsuite/btclog"
-	"github.com/jrick/logrotate/rotator"
+	"github.com/nilber/btclog"
+	"github.com/nilbergrotate/rotator"
 )
 
 // logWriter implements an io.Writer that outputs to both standard output and

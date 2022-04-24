@@ -1,14 +1,14 @@
-// Copyright (c) 2013-2016 The btcsuite developers
+// Copyright (c) 2013-2016 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package bloom
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/nilbertcd/blockchain"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/wire"
 )
 
 // merkleBlock is used to house intermediate information needed to generate a

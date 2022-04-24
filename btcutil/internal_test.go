@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,9 +12,9 @@ interface. The functions are only exported while the tests are being run.
 package btcutil
 
 import (
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil/base58"
-	"github.com/btcsuite/btcd/btcutil/bech32"
+	"github.com/nilbertcd/btcec/v2"
+	"github.com/nilbertcd/btcutil/base58"
+	"github.com/nilbertcd/btcutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 

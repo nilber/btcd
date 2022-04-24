@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2016 The btcsuite developers
+// Copyright (c) 2014-2016 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -9,9 +9,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcd/btcutil/bloom"
+	"github.com/nilbertcd/btcutil/bloom"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/wire"
 )
 
 // This example demonstrates how to create a new bloom filter, add a transaction

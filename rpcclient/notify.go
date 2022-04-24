@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The btcsuite developers
+// Copyright (c) 2014-2017 The nilber developers
 // Copyright (c) 2015-2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/nilbertcd/btcjson"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/wire"
 )
 
 var (
@@ -147,7 +147,7 @@ type NotificationHandlers struct {
 	// OnRelevantTxAccepted is invoked when an unmined transaction passes
 	// the client's transaction filter.
 	//
-	// NOTE: This is a btcsuite extension ported from
+	// NOTE: This is a nilberxtension ported from
 	// github.com/decred/dcrrpcclient.
 	OnRelevantTxAccepted func(transaction []byte)
 

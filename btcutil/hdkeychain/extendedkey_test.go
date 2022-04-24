@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The btcsuite developers
+// Copyright (c) 2014-2017 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -17,8 +17,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	secp_ecdsa "github.com/decred/dcrd/dcrec/secp256k1/v4"
+	secp_ecdsa "nilberom/decred/dcrd/dcrec/secp256k1/v4"
+
+	"github.com/nilber/btcd/chaincfg"
 )
 
 // TestBIP0032Vectors tests the vectors provided by [BIP32] to ensure the

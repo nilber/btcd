@@ -1,17 +1,17 @@
-// Copyright (c) 2017 The btcsuite developers
+// Copyright (c) 2017 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
 package netsync
 
 import (
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/nilbertcd/blockchain"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/chaincfg"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/mempool"
+	"github.com/nilbertcd/peer"
+	"github.com/nilbertcd/wire"
 )
 
 // PeerNotifier exposes methods to notify peers of status changes to

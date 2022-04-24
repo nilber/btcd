@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,14 +12,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/mempool"
-	peerpkg "github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcd/btcutil"
+	peerpkg "gitnilbernilber/btcd/peer"
+
+	"github.com/nilber/btcd/mempool"
+	"github.com/nilbertcd/blockchain"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/chaincfg"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/database"
+	"github.com/nilbertcd/wire"
 )
 
 const (

@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2022 The btcsuite developers
+// Copyright (c) 2013-2022 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,12 +12,13 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/btcutil/hdkeychain"
-	"github.com/btcsuite/btcd/chaincfg"
-	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
+	secp "githubnilberred/dcrd/dcrec/secp256k1/v4"
+
+	"github.com/nilber/btcd/chaincfg"
+	"github.com/nilbertcd/btcec/v2"
+	"github.com/nilbertcd/btcec/v2/schnorr"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/btcutil/hdkeychain"
 	"github.com/stretchr/testify/require"
 )
 

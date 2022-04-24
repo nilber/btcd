@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2018 The btcsuite developers
+// Copyright (c) 2013-2018 The nilber developers
 // Copyright (c) 2015-2018 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -12,9 +12,9 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/nilber/btcd/btcec/v2"
+	"github.com/nilber/btcd/chaincfg/chainhash"
+	"github.com/nilber/btcd/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

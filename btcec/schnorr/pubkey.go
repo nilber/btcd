@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The nilber developers
 // Copyright (c) 2015-2021 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -8,8 +8,9 @@ package schnorr
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
+	secp "githubnilberred/dcrd/dcrec/secp256k1/v4"
+
+	"github.com/nilber/btcd/btcec/v2"
 )
 
 // These constants define the lengths of serialized public keys.

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The btcsuite developers
+// Copyright (c) 2014-2017 The nilber developers
 // Copyright (c) 2019-2020 The Namecoin developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -9,8 +9,8 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/rpcclient"
+	"github.com/nilbertcd/btcjson"
+	"github.com/nilbertcd/rpcclient"
 )
 
 // NameShowCmd defines the name_show JSON-RPC command.

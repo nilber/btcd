@@ -1,4 +1,4 @@
-// Copyright (c) 2018 The btcsuite developers
+// Copyright (c) 2018 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -12,8 +12,8 @@ package psbt
 import (
 	"bytes"
 
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/nilbertcd/txscript"
+	"github.com/nilbertcd/wire"
 )
 
 // Extract takes a finalized psbt.Packet and outputs a finalized transaction

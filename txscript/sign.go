@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The btcsuite developers
+// Copyright (c) 2013-2015 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,13 +7,13 @@ package txscript
 import (
 	"errors"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcec/v2/schnorr"
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/nilbertcd/btcec/v2"
+	"github.com/nilbertcd/btcec/v2/schnorr"
+	"github.com/nilbertcd/btcutil"
 
-	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/nilbertcd/btcec/v2/ecdsa"
+	"github.com/nilbertcd/chaincfg"
+	"github.com/nilbertcd/wire"
 )
 
 // RawTxInWitnessSignature returns the serialized ECDA signature for the input

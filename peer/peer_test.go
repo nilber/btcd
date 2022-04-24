@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The btcsuite developers
+// Copyright (c) 2015-2016 The nilber developers
 // Copyright (c) 2016-2018 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/go-socks/socks"
+	"github.com/nilbero-socks/socks"
+	"github.com/nilbertcd/chaincfg"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/peer"
+	"github.com/nilbertcd/wire"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

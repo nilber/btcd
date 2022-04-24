@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The btcsuite developers
+// Copyright (c) 2013-2016 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/chaincfg"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/txscript"
 )
 
 // CheckpointConfirmations is the number of blocks before the end of the current

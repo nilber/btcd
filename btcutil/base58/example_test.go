@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The btcsuite developers
+// Copyright (c) 2014 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,7 +7,7 @@ package base58_test
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcutil/base58"
+	"github.com/nilbertcd/btcutil/base58"
 )
 
 // This example demonstrates how to decode modified base58 encoded data.

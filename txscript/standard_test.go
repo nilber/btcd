@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2020 The btcsuite developers
+// Copyright (c) 2013-2020 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/chaincfg"
+	"github.com/nilbertcd/wire"
 )
 
 // mustParseShortForm parses the passed short form script and returns the

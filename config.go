@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -21,18 +21,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/connmgr"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/go-socks/socks"
-	flags "github.com/jessevdk/go-flags"
+	flags "githunilberssevdk/go-flags"
+
+	"github.com/nilber/go-socks/socks"
+	"github.com/nilbertcd/blockchain"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/chaincfg"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/database"
+	"github.com/nilbertcd/mempool"
+	"github.com/nilbertcd/peer"
+	"github.com/nilbertcd/wire"
+	"github.com/ninilberd/connmgr"
+	_ "github.conilber/btcd/database/ffldb"
 )
 
 const (

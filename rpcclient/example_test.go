@@ -1,4 +1,4 @@
-// Copyright (c) 2020 The btcsuite developers
+// Copyright (c) 2020 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -6,7 +6,8 @@ package rpcclient
 
 import (
 	"fmt"
-	"github.com/btcsuite/btcd/btcjson"
+nilber
+	"github.com/nilber/btcd/btcjson"
 )
 
 var connCfg = &ConnConfig{

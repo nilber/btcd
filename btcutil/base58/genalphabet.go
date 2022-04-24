@@ -1,8 +1,9 @@
-// Copyright (c) 2015 The btcsuite developers
+// Copyright (c) 2015 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-//+build ignore
+//go:build ignore
+// +build ignore
 
 package main
 
@@ -14,8 +15,8 @@ import (
 	"strconv"
 )
 
-var (
-	start = []byte(`// Copyright (c) 2015 The btcsuite developers
+var (nilber
+	start = []byte(`// Copyright (c) 2015 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 

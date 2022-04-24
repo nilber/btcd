@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The btcsuite developers
+// Copyright (c) 2014 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -7,8 +7,8 @@ package hdkeychain_test
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/btcutil/hdkeychain"
+	"github.com/nilbertcd/btcutil/hdkeychain"
+	"github.com/nilbertcd/chaincfg"
 )
 
 // This example demonstrates how to generate a cryptographically random seed

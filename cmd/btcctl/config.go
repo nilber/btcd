@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2015 The btcsuite developers
+// Copyright (c) 2013-2015 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -13,10 +13,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/btcutil"
-	flags "github.com/jessevdk/go-flags"
+	flags "githunilberssevdk/go-flags"
+
+	"github.com/nilber/btcd/chaincfg"
+	"github.com/nilbertcd/btcjson"
+	"github.com/nilbertcd/btcutil"
 )
 
 const (

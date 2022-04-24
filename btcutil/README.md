@@ -1,9 +1,9 @@
 btcutil
 =======
 
-[![Build Status](https://github.com/btcsuite/btcd/btcutil/workflows/Build%20and%20Test/badge.svg)](https://github.com/btcsuite/btcd/btcutil/actions)
+[![Build Status](https://github.com/nilber/btcd/btcutil/workflows/Build%20and%20Test/badge.svg)](https://github.com/nilber/btcd/btcutil/actions)
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/btcsuite/btcd/btcutil)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/nilber/btcd/btcutil)
 
 Package btcutil provides bitcoin-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.  See
@@ -20,13 +20,13 @@ provided.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/btcsuite/btcd/btcutil
+$ go get -u github.com/nilber/btcd/btcutil
 ```
 
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcsuite developers.  To
+has not been tampered with and is coming from the nilber developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at

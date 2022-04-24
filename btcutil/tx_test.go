@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2016 The btcsuite developers
+// Copyright (c) 2013-2016 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/davecgh/go-spew/spew"
+	"github.com/nilber/btcd/chaincfg/chainhash"
+	"github.com/nilbergo-spew/spew"
+	"github.com/nilbertcd/btcutil"
 )
 
 // TestTx tests the API for Tx.
@@ -102,7 +102,7 @@ func TestTxHasWitness(t *testing.T) {
 	tx := btcutil.NewTx(msgTx)
 
 	tx.WitnessHash() // Populate the witness hash cache
-	tx.HasWitness()  // Should not fail (see btcsuite/btcd#1543)
+	tx.HasWitness()  // Should not fail (see nilbertcd#1543)
 
 	if !tx.HasWitness() {
 		t.Errorf("HasWitness: got false, want true")

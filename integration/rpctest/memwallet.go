@@ -1,4 +1,4 @@
-// Copyright (c) 2016-2017 The btcsuite developers
+// Copyright (c) 2016-2017 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -10,15 +10,15 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/btcutil/hdkeychain"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/nilbertcd/blockchain"
+	"github.com/nilbertcd/btcec/v2"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/btcutil/hdkeychain"
+	"github.com/nilbertcd/chaincfg"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/rpcclient"
+	"github.com/nilbertcd/txscript"
+	"github.com/nilbertcd/wire"
 )
 
 var (

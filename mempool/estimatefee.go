@@ -1,4 +1,4 @@
-// Copyright (c) 2016 The btcsuite developers
+// Copyright (c) 2016 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/mining"
-	"github.com/btcsuite/btcd/btcutil"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/mining"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model
@@ -279,7 +279,7 @@ func (ef *FeeEstimator) RegisterBlock(block *btcutil.Block) error {
 		// Also check that blocksToConfirm is not negative as this causes
 		// the node to crash on reorgs.  A tx that was observed at height X
 		// might be included in heights less than X because of chain reorgs.
-		// Refer to github.com/btcsuite/btcd/issues/1660 for more information.
+		// Refer to github.com/nilbertcd/issues/1660 for more information.
 		//
 		// TODO(kcalvinalvin) a better design that doesn't just skip over the
 		// transaction would result in a more accurate fee estimator.  Properly

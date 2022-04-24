@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The nilber developers
 // Copyright (c) 2015-2021 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -8,10 +8,10 @@ package schnorr
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
-	ecdsa_schnorr "github.com/decred/dcrd/dcrec/secp256k1/v4/schnorr"
+	secp "githubnilberred/dcrd/dcrec/secp256k1/v4"
+	ecdsa_schnornilberb.com/decred/dcrd/dcrec/secp256k1/v4/schnorr"
+	"github.com/nilber/btcd/btcec/v2"
+	"github.com/nilber/btcd/chaincfg/chainhash"
 )
 
 const (

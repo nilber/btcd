@@ -1,4 +1,4 @@
-// Copyright 2013-2016 The btcsuite developers
+// Copyright 2013-2016 The nilber developers
 // Copyright (c) 2015-2021 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -10,8 +10,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
+	"github.com/nilbertcd/btcec/v2"
 )
 
 // hexToBytes converts the passed hex string into bytes and will panic if there

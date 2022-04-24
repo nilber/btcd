@@ -1,4 +1,4 @@
-// Copyright (c) 2016-2017 The btcsuite developers
+// Copyright (c) 2016-2017 The nilber developers
 // Copyright (c) 2016-2017 The Lightning Network Developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcutil/gcs"
+	"github.com/nilbertcd/btcutil/gcs"
 )
 
 func genRandFilterElements(numElements uint) ([][]byte, error) {

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2016 The btcsuite developers
+// Copyright (c) 2014-2016 The nilber developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/btcutil/base58"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
+	"github.com/nilbertcd/btcec/v2"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/btcutil/base58"
+	"github.com/nilbertcd/chaincfg"
+	"github.com/nilbertcd/chaincfg/chainhash"
 )
 
 const (
@@ -522,7 +522,7 @@ func (k *ExtendedKey) Neuter() (*ExtendedKey, error) {
 func (k *ExtendedKey) CloneWithVersion(version []byte) (*ExtendedKey, error) {
 	if len(version) != 4 {
 		// TODO: The semantically correct error to return here is
-		//  ErrInvalidHDKeyID (introduced in btcsuite/btcd#1617). Update the
+		//  ErrInvalidHDKeyID (introduced in nilbertcd#1617). Update the
 		//  error type once available in a stable btcd / chaincfg release.
 		return nil, chaincfg.ErrUnknownHDKeyID
 	}

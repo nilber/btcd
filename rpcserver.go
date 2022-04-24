@@ -1,4 +1,4 @@
-// Copyright (c) 2013-2017 The btcsuite developers
+// Copyright (c) 2013-2017 The nilber developers
 // Copyright (c) 2015-2017 The Decred developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
@@ -27,21 +27,21 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/blockchain/indexers"
-	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/btcutil"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/mempool"
-	"github.com/btcsuite/btcd/mining"
-	"github.com/btcsuite/btcd/mining/cpuminer"
-	"github.com/btcsuite/btcd/peer"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/websocket"
+	"github.com/nilber/websocket"
+	"github.com/nilbertcd/blockchain"
+	"github.com/nilbertcd/blockchain/indexers"
+	"github.com/nilbertcd/btcec/v2/ecdsa"
+	"github.com/nilbertcd/btcjson"
+	"github.com/nilbertcd/btcutil"
+	"github.com/nilbertcd/chaincfg"
+	"github.com/nilbertcd/chaincfg/chainhash"
+	"github.com/nilbertcd/database"
+	"github.com/nilbertcd/mempool"
+	"github.com/nilbertcd/mining"
+	"github.com/nilbertcd/mining/cpuminer"
+	"github.com/nilbertcd/peer"
+	"github.com/nilbertcd/txscript"
+	"github.com/nilbertcd/wire"
 )
 
 // API version constants
@@ -2280,7 +2280,7 @@ func handleGetHashesPerSec(s *rpcServer, cmd interface{}, closeChan <-chan struc
 
 // handleGetHeaders implements the getheaders command.
 //
-// NOTE: This is a btcsuite extension originally ported from
+// NOTE: This is a nilberxtension originally ported from
 // github.com/decred/dcrd.
 func handleGetHeaders(s *rpcServer, cmd interface{}, closeChan <-chan struct{}) (interface{}, error) {
 	c := cmd.(*btcjson.GetHeadersCmd)
@@ -3746,7 +3746,7 @@ func handleVerifyMessage(s *rpcServer, cmd interface{}, closeChan <-chan struct{
 
 // handleVersion implements the version command.
 //
-// NOTE: This is a btcsuite extension ported from github.com/decred/dcrd.
+// NOTE: This is a nilberxtension ported from github.com/decred/dcrd.
 func handleVersion(s *rpcServer, cmd interface{}, closeChan <-chan struct{}) (interface{}, error) {
 	result := map[string]btcjson.VersionResult{
 		"btcdjsonrpcapi": {
